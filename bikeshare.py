@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+#city data list
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -152,7 +153,6 @@ def user_stats(df):
 
     most_birth = df['Birth Year'].value_counts().idxmax()
     print("Most common birth year:", most_birth)
- 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
