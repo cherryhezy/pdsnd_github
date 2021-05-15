@@ -4,7 +4,7 @@
 2021-05-15
 
 ### Project Title
-Project 3
+Project 3 - bikeshare
 
 ### Description
 bikeshare file edit and share
@@ -15,4 +15,4 @@ data.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credit to Udacity
